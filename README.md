@@ -2,7 +2,7 @@
 
 Julia package for building and simulating closed quantum systems with exact diagonalization and sparse/dense matrices. An emphasis is placed on doing dynamics and studying quantum chaos diagnostics (including through Krylov space expansions) on spin-1/2 chains. This package is meant to be high-level with a wide range of techniques for doing research. For more specialized and efficient versions of the simulation methods contained within, one should check out [PauliStrings.jl](https://paulistrings.org/dev/) for Pauli string binary encoding, [QuantumKitHub](https://github.com/QuantumKitHub) for Krylov and tensor network methods, [ITensors.jl](https://docs.itensor.org/Overview/) for tensor network methods, and [Xdiag.jl](https://github.com/awietek/XDiag.jl) for more efficient exact-diagonalization.
 
-Claude Code has been used to write and edit part of this package, as well as to create examples and validations.
+While all functions are human-verified, Claude Code has been used to edit part of this package, as well as to create some examples and validation tests.
 
 ## Installation
 
