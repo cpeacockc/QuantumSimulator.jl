@@ -1,0 +1,3 @@
+[deps]
+PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
+QuantumSimulator = "4f0cf495-f4fa-455b-87d1-0a5b9311478f"

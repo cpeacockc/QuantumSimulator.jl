@@ -1,0 +1,4 @@
+Manifest.toml
+examples/Outs/Plots/*.pdf
+examples/Outs/Plots/*.png
+.DS_Store
