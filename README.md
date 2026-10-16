@@ -2,8 +2,6 @@
 
 Julia package for building and simulating open and closed quantum systems with exact diagonalization and Krylov methods using sparse/dense matrices. An emphasis is placed on doing dynamics and studying quantum chaos diagnostics (including from Krylov space perspectives) on spin-1/2 chains. This package is meant to be high-level with a wide range of techniques for doing research. For more specialized and efficient versions of the simulation methods contained within, one should check out [PauliStrings.jl](https://paulistrings.org/dev/) for Pauli string binary encoding, [QuantumKitHub](https://github.com/QuantumKitHub) for Krylov and tensor network methods, [ITensors.jl](https://docs.itensor.org/Overview/) for tensor network methods, and [Xdiag.jl](https://github.com/awietek/XDiag.jl) for more efficient exact-diagonalization.
 
-All functions are human-verified, though Claude Code has been used to edit part of this package, as well as to create some examples and validation tests.
-
 ## Installation
 
 Not registered, so install it straight from the repository:
@@ -285,3 +283,5 @@ julia --project=examples examples/Example.jl
 ```bash
 julia --project=. test/runtests.jl
 ```
+
+AI Disclaimer: Claude Code has been used to edit some parts of this package, as well as to create some examples and validation tests. All functions are completely human-verified.
